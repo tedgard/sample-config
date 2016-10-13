@@ -28,6 +28,6 @@ public class SpringDataAppApplication {
 		
 		book = repository.save(book);
 		
-		logger.info("After being save : "+book);
+		logger.info("After being saved : "+book);
 	}
 }
